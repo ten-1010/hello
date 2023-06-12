@@ -47,3 +47,5 @@ public class kazuate{
         scanner.close();
     }
 }
+
+// aaaaa
