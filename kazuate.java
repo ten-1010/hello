@@ -5,7 +5,7 @@ public class kazuate{
         int secretNumber = (int) (Math.random() * 90) + 10; // 10から99までのランダムな数を生成
         int attempts = 0; // 予想回数を初期化
 
-        System.out.println("1から99までの数を予想してください。");
+        System.out.println("10から99までの数を予想してください。");
         System.out.println("予想回数は最大5回までです。");
 
         Scanner scanner = new Scanner(System.in);
@@ -48,4 +48,3 @@ public class kazuate{
     }
 }
 
-// aaaaa
