@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class kazuate{
     public static void main(String[] args) {
-        int secretNumber = (int) (Math.random() * 99) + 1; // 1から99までのランダムな数を生成
+        int secretNumber = (int) (Math.random() * 90) + 10; // 10から99までのランダムな数を生成
         int attempts = 0; // 予想回数を初期化
 
         System.out.println("1から99までの数を予想してください。");
